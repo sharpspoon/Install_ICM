@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Install_ICM
 {
-    public partial class Form1 : Form
+    public partial class InstallICMForm : Form
     {
-        public Form1()
+        public InstallICMForm()
         {
             InitializeComponent();
+        }
+
+        private void InstallICMButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
